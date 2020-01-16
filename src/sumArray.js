@@ -17,5 +17,5 @@
 
 
 var sumArray = function(arr) {
-  // Your code here
+  return (arr.length > 0) ? arr[0] + sumArray(arr.slice(1)): 0;
 };
